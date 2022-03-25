@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-regular {
+    font-size: 28px;
+}
+
+.caja-regular {
+    width: 130px;
+    height: 150px;
+    color: aqua;
+    background-color: rgb(34, 55, 58);
+}
+
+.icono-pequeño {
+    font-size: 25px;
+}
+
+.caja-pequeña {
+    background: skyblue;
+    width: 80px;
+    height: 80px;
+}
